@@ -34,6 +34,7 @@ export default class NetworkedScene extends React.Component<State> {
         {this.state.appRendered && (
           <Scene
             networked-scene={config}
+            class="scene"
             renderer="antialias: true"
             background="color: #FAFAFA"
           >
